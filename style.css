@@ -291,7 +291,7 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
     padding-bottom: 60px;
 }
 .AcRepairImage{
-    background-image: url("/images/image5.jpg");
+    background-image: url("image5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

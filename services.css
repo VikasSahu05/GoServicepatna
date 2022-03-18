@@ -1,5 +1,5 @@
 .section1{
-    background-image: url('/images/imageservice.jpg');
+    background-image: url('imageservice.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@
     bottom: 27%;
 }
 .videoSection{
-    background-image: url('/images/image7.jpg');
+    background-image: url('image7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(50%);
