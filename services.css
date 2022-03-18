@@ -1,0 +1,101 @@
+.section1{
+    background-image: url('/images/imageservice.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%vw;
+}
+.section1 h1{
+    color: white;
+    padding: 100px;
+}
+.section1 .navigationService{
+    background-color: #ff6600;
+    width: 35%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.section1 .fa-long-arrow-right{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btnReadMore{
+    border-radius: 50px!important;
+}
+.ServiceIcon{
+    background-color: white;
+    border-bottom: 5px solid #ff6600;
+    position: absolute;
+    bottom: 27%;
+}
+.videoSection{
+    background-image: url('/images/image7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+.videoSection h1{
+    font-size: 60px;
+    padding: 120px;
+}
+.fa-user:before {
+    content: "\f007";
+    font-size: 100px;
+    border-radius: 50%;
+    color: white;
+    padding: 40px;
+    border: 10px solid white;
+    background-color: #2371ff;
+}
+.getInTouchInput{
+    border-radius: 20px;
+    line-height: 50px;
+    border: 1px solid rgb(202, 201, 201)!important;
+    outline: none!important;
+}
+.btnEstimate{
+    border-radius: 50px;
+    background-color: #ff6600;
+    border: none;
+    outline: none!important;
+    line-height: 50px;
+    color: white;
+
+}
+.btnEstimate:hover{
+    background-color: #2371ff;
+    color: white;
+}
+.contactBack{
+    background-color: #ff6600;
+    border-radius: 5px;
+    padding: 35px;
+    position:absolute;
+    bottom:90%;
+    left: 3.5%;
+    
+}
+.contactBackMobile{
+    background-color: #ff6600;
+    border-radius: 5px;
+    padding: 35px;
+}
+.btnContact{
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .ServiceIcon{
+        background-color: white;
+        border-bottom: 5px solid #ff6600;
+        position: absolute;
+        bottom: 50%;
+    }
+    footer{
+        margin-top: 30px;
+    }
+}

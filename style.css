@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    /* font-size: 28px; */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* header css start here */
+
+  .header {
+    padding: 17px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+  }
+  .headerBoder{
+    margin-left: 10px;  
+    border-right: 1px solid rgb(190, 187, 187);
+  }
+  .header-bg{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-20deg, #ff6600 33%, #013A6B 30%);
+    color: white;
+  }
+  .header-icon{
+    color: #ff6600;
+    padding-left:30px;
+  }
+  /* header css end here */
+  /* navbar css start here */
+  
+  #navbarDiv {
+    background-color:rgb(255, 255, 255);
+    z-index: 9999;
+  } 
+  nav{
+    /* background-color: #013A6B; */
+    background-image: linear-gradient(to right, white 68% , #2371ff 50%);
+  }
+  .navbar{
+      position: relative!important;
+  }
+  .dropdown{
+      text-transform: uppercase;
+  }
+
+  nav ul ul{
+      position: absolute;
+      top: 70px;
+    }
+  nav ul li ul{
+    visibility: hidden;
+    background-color: #ff6600;
+    z-index: 9999;
+}
+  nav ul li:hover>ul{
+      visibility: visible;
+      z-index: 9999;
+      list-style: none;
+      background-color: #ff6600;
+  }
+  .nav-link:hover{
+    color: #ff6600!important;
+  }
+  .nav-link{
+      color: black;
+  }
+  .btn_get{
+    border-radius:50px;
+    width: 110px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: #ffffff;
+  }
+  .btn_get:hover{
+      background-color:#ff6600;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  .iconText{
+    font-size: 30px;
+    color: white;
+}
+.dropdown-menu {
+    background-color: white!important;
+    border: none;
+    border-top: 5px solid #ff6600;
+}
+.fa-user-circle-o:before {
+    content: "\f2be";
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+  /* navbar css end here */
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .fa-youtube-play:before {
+    content: "\f16a";
+    font-size: 100px;
+    color: #ff6600;
+    padding-right: 10px;
+}
+.contentText{
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 70px;
+}
+.contentText2{
+    font-size: 35px;
+}
+.contentTextPara{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+}
+.cardPara{
+    background-color: #e4e1e1;
+    border: none;
+    font-size: 30px;
+}
+.btn-appointment{
+    border-radius: 50px;
+    background-color: #2371ff;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px;
+}
+.btn-appointment:hover{
+    background-color: #ff6600;
+}
+.vtext{
+    font-size: 25px;
+}
+
+.Residentialbg{
+    background-color: #ff6600;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Commercialbg{
+    font-size: 40px;
+    background-color: #1d284b;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projectDone{
+    padding: 33px;
+    background-color: #1d284b;
+    margin-top: 26px;
+    font-size: 33px;
+    text-align: center;
+    color: white;
+}
+.btnReadMore1{
+    border-radius: 50px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+.btnReadMore1:hover{
+    background-color: #2371ff;
+}
+.btnReadMore:hover{
+    background-color: #2371ff;
+}
+.btnMoreService{
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #ff6600;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+.btnMoreService:hover{
+    background-color: #2371ff;
+    color: #ffffff;
+
+}
+.counterNumber{
+    font-size: 70px;
+}
+.counterText{
+    font-size: 20px;
+}
+.textColor{
+    color: #ff6600;
+}
+.bg-stripe{
+    background: repeating-linear-gradient(
+  150deg,
+  rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.2) 10px,
+  rgba(0, 0, 0, 0.3) 10px,
+  rgba(0, 0, 0, 0.3) 20px
+),
+url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
+}
+.cardIcon{
+    padding: 30px;
+    background-color: rgb(219, 217, 217);
+    border-radius: 10px;
+    color: #2371ff;
+}
+.Active{
+    background-color: #ff6600;
+}
+.Active i{
+    color: #1d284b;
+    -webkit-animation: fade-in 3s infinite;
+    -webkit-animation-delay: 1s;
+
+}
+.Active .cardIcon{
+    background-color: white;
+}
+.Active p{
+    color: white;
+}
+.Active strong{
+    color: white;
+    font-weight: bold;
+}
+.imagehover{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+.imagehover img{
+    transition: .5s all ease-in-out;
+}
+.imagehover .cardImage{
+    position: absolute;
+    left:5%;
+    bottom: 20%;
+    width: 400px;
+    padding: 20px;
+    font-weight: bold;
+}
+.imagehover:hover img{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.socialMedia{
+    position:absolute;
+    background-color: #ff6600;
+    color: white;
+    top: 10%;
+    padding: 20px;
+    opacity: 0.5;
+}
+.tabs{
+    border-radius: 50px;
+    background-color:#ff6600;
+    border: none;
+    color: white;
+}
+.tabs:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.card1{
+    padding-bottom: 60px;
+}.card2{
+    padding-bottom: 60px;
+}.card3{
+    padding-bottom: 60px;
+}
+.card4{
+    padding-bottom: 60px;
+}
+.AcRepairImage{
+    background-image: url("/images/image5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.msgForm{
+    background-color: #ff6600;
+}
+.formInput{
+    line-height: 50px;
+}
+.btnSendMsg{
+    background-color: #1d284b;
+    border: none;
+    color: white;
+    line-height: 50px;
+}
+.bgColor{
+    background-color: #1d284b;
+}
+.cardColor{
+    background-color:#222e54;
+    border-radius: 0!important;
+    color: white;
+}
+
+.cardColor1{
+    background-color: white;
+    border-radius: 0!important;
+    color: black;
+    border: none!important;
+    position: absolute;
+    top:50%;
+    opacity: 0.5;
+    left: 25%;
+    /* z-index: 999999; */
+}
+.cardColor1:hover{
+    opacity: 1;
+}
+.bgContainerimage{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bg-stripe{
+    border-top-left-radius: 10px;
+    margin-top: 180px;
+    background-color: rgb(255, 255, 255);;
+}
+
+.fa-male:before {
+    content: "\f183";
+    font-size: 80px;
+    background-color: orange;
+    color: white;
+    padding: 40px;
+    border-radius: 50%;
+}
+.cardPackage{
+    background-color: rgb(240, 240, 240);
+}
+.cardBorder:hover .cardPackage{
+    color: #ff6600;
+}
+.checkPackage:hover > i{
+    color: #ff6600;
+}
+.fa-check-square:hover{
+    color: #ff6600;
+}
+.cardBorder{
+    border: 15px solid rgb(240, 240, 240);
+    border-radius: 0!important;
+}
+.btnPackage{
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+.btnPackage:hover{
+    background-color: #ff6600;
+    color:white
+}   
+.footerHeadBorder{
+    border-bottom: 2px solid #ff6600;
+    width: 10%;
+}
+.newsletterInput{
+    border:1px solid #ff6600;
+    border-radius: 5px;
+    line-height: 50px;
+    outline: none;
+    background-color: #1d284b;
+}
+.btnSubscrib{
+    background-color: #ff6600;
+    width: 100%;
+    line-height: 50px;
+}
+.socialMediaBG{
+    background-color: #222e54;
+    padding: 20px;
+}
+.btnReadMore{
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color: #ff6600;
+    border-radius: 0!important;
+    width: 50%;
+    position: absolute;
+    top: 95%;
+    left:12%;
+    
+}
+.sliderDot{
+    position: absolute;
+    left: 83%;
+}
+.slideBtn1{
+    position: absolute;
+    left: 76%;
+    color: white;
+    background-color: #1d284b;
+    border: none;
+}
+.slideBtn1:hover{
+    color: #ff6600;
+}
+.slideBtn2{
+    position: absolute;
+    left: 89%;
+    color: white;
+    background-color: #1d284b;
+    border: none;
+}
+.slideBtn2:hover{
+    color: #ff6600;
+}
+
+.headerContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.scrollLoad{
+    position: relative;
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.scrollLoad.scrollActive{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.navbar-brand{
+    color: #fff!important;
+    background: -webkit-linear-gradient(-20deg, #1d284b 53%, #ff6600 30%);
+    box-shadow: 2px 2px 3px 1px grey;
+    padding: 5px;
+}
+/* /// */
+@-webkit-keyframes fade-in {
+    0%{
+      opacity: 0;
+      top: 50px;
+    }
+    30%,
+    70% {
+      opacity: 1;
+      top: 0px;
+    }
+    100% {
+      opacity: 0;
+      top: -50px;
+    }
+  }
+  .text-animated-one {
+    position: relative;
+    top: 0px;
+    -webkit-animation: fade-in 3s infinite;
+    -webkit-animation-delay: 5s;
+   
+  }
+  
+  
+  
+/* /// */
+
+  /* //////////// */
+  @media only screen and (max-width:768px) {
+    .navEnd{
+        display: none!important;
+    }
+    /* nav{
+        background-image: linear-gradient(to right, #ffffff 65% ,#ffffff 30%);
+    } */
+    .Residentialbg{
+        font-size: 40px;
+        background-color: #ff6600;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .Commercialbg{
+        font-size: 40px;
+        background-color: #1d284b;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+
+    }
+    .contentText{
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .contentText2{
+        font-size: 20px;
+    }
+    .imagehover .cardImage{
+        position: absolute;
+        left:3%;
+        bottom: 20%;
+        width: 100%;
+        padding: 20px;
+        font-weight: bold;
+    }
+    nav{
+        background-color: #013A6B;
+        background-image: linear-gradient(to right, #ff6600 57% ,#ff6600 30%)!important;
+      }
+      .headerContact{
+          display: none!important;
+      }
+      .nav-link:hover{
+        color: #ffffff!important;
+      }
+      .navbar-brand{
+          color: #ffffff!important;
+      }
+    
+  }
