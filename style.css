@@ -536,3 +536,14 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
       }
     
   }
+
+  @media only screen and (min-width:820px) and (max-width:1080px) {
+    .headerContact{
+        display: none!important;
+    }   
+    nav{
+        background-image: linear-gradient(to right, #ff6600 57% ,#ff6600 30%)!important;
+
+      }
+
+  }
