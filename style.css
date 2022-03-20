@@ -26,6 +26,11 @@
   .header-icon{
     color: #ff6600;
     padding-left:30px;
+    transition: all 0.8s ease-out;
+  }
+  .header-icon:hover{
+    color: white;
+    font-size: larger;
   }
   /* header css end here */
   /* navbar css start here */
@@ -72,9 +77,14 @@
     padding: 15px;
     margin-left: 10px;
     background-color: #ffffff;
+    
+  }
+  .btn{
+    transition:all 0.8s ease-in-out;
   }
   .btn_get:hover{
       background-color:#ff6600;
+      font-size: 15px;
   }
   a{
       text-decoration: none;
@@ -94,6 +104,11 @@
     font-size: 50px;
     border: 3px solid white;
     border-radius: 50px;
+    transition: all 0.8s ease-in-out;
+}
+.fa-user-circle-o:hover:before{
+    border:3px solid #ff6600;
+    color: white;
 }
   /* navbar css end here */
   .content {
@@ -177,12 +192,16 @@
     border: none;
     outline: none;
     padding: 20px;
+    transition: background-color,all 0.8s ease-in-out;
 }
 .btnReadMore1:hover{
     background-color: #2371ff;
+    font-size: 15px;
 }
 .btnReadMore:hover{
     background-color: #2371ff;
+    font-size: 15px;
+
 }
 .btnMoreService{
     border-radius: 50px;
@@ -270,6 +289,48 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
     padding: 20px;
     opacity: 0.5;
 }
+.footerEffect{
+    transition: all 0.8s ease-in;
+}
+.footerEffect:hover{
+    color: orange;
+    cursor: pointer;
+    font-size: larger;
+}
+/* //////////////////// */
+.fa-facebook{
+    transition: all 0.8s ease-in-out;
+}
+.fa-facebook:hover{
+    /* color: #1d284b !important; */
+    opacity: 1;
+    font-size: larger;
+}
+.fa-twitter{
+    transition: all 0.8s ease-in-out;
+}
+.fa-twitter:hover{
+    /* color: #1d284b !important; */
+    opacity: 1;
+    font-size: larger;
+}
+.fa-linkedin{
+    transition: all 0.8s ease-in-out;
+}
+.fa-linkedin:hover{
+    /* color: #1d284b !important; */
+    opacity: 1;
+    font-size: larger;
+}
+.fa-instagram{
+    transition: all 0.8s ease-in-out;
+}
+.fa-instagram:hover{
+    /* color: #1d284b !important; */
+    opacity: 1;
+    font-size: larger;
+}
+/* /////////////// */
 .tabs{
     border-radius: 50px;
     background-color:#ff6600;
@@ -306,6 +367,11 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
     border: none;
     color: white;
     line-height: 50px;
+    transition: color ,all 0.8s ease-in-out;
+}
+.btnSendMsg:hover{
+    color: #ff6600;
+    background-color: white;
 }
 .bgColor{
     background-color: #1d284b;
@@ -356,9 +422,11 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
 }
 .checkPackage:hover > i{
     color: #ff6600;
+    transition: all 0.5s ease-in;
 }
 .fa-check-square:hover{
     color: #ff6600;
+    font-size: 20px;
 }
 .cardBorder{
     border: 15px solid rgb(240, 240, 240);
@@ -389,6 +457,10 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
     background-color: #ff6600;
     width: 100%;
     line-height: 50px;
+    transition:all 0.8s ease-in-out;
+}
+.btnSubscrib:hover{
+    font-size: 25px;
 }
 .socialMediaBG{
     background-color: #222e54;
@@ -405,7 +477,7 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
     position: absolute;
     top: 95%;
     left:12%;
-    
+    transition: background-color,all 0.8s ease-in-out;    
 }
 .sliderDot{
     position: absolute;
@@ -453,6 +525,10 @@ url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@1X.png);
     background: -webkit-linear-gradient(-20deg, #1d284b 53%, #ff6600 30%);
     box-shadow: 2px 2px 3px 1px grey;
     padding: 5px;
+    transition: all 0.8s ease-in-out;
+}
+.navbar-brand:hover{
+    background: -webkit-linear-gradient(20deg, #ff6600 53%, #1d284b 30%);
 }
 /* /// */
 @-webkit-keyframes fade-in {
