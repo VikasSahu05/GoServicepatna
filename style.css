@@ -20,7 +20,7 @@
   }
   .header-bg{
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(-20deg, #ff6600 33%, #013A6B 30%);
+    background-image: -webkit-linear-gradient(-20deg, #ff6600 30%, #013A6B 30%);
     color: white;
   }
   .header-icon{
@@ -41,7 +41,7 @@
   } 
   nav{
     /* background-color: #013A6B; */
-    background-image: linear-gradient(to right, white 61% , #2371ff 50%);
+    background-image: linear-gradient(to right, white 63% , #2371ff 50%);
   }
   .navbar{
       position: relative!important;
