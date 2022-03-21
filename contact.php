@@ -32,6 +32,7 @@
         </div>
     </div>
 </div>
+
 <div id="navbarDiv">
   <!-- navbar start -->
   <!-- <div class="container"> -->
@@ -124,7 +125,7 @@
       <div class="col-12 col-sm-6 col-md-6 col-lg-6 p-4">
           <strong class="textColor">Get in Touch</strong>  
           <h1>Have any question or <br> free consultacy?</h1>
-          <form action="">
+          <form action="" method=""> 
               <div class="d-flex flex-column">
               <input type="text"  class="getInTouchInput form-control" placeholder="Name" name="name"><br>
               <input type="text" class="getInTouchInput form-control" placeholder="Mobile number" name="mobile"/><br>
@@ -139,7 +140,7 @@
               </select><br>
               <textarea type="text" class="getInTouchInput form-control" placeholder="Message" name="message"></textarea>
               <br>
-              <button class="btnEstimate">Get Estimate</button>
+              <button type="submit" class="btnEstimate">Get Estimate</button>
             </div>
             </form>
       </div>
