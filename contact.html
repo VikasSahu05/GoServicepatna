@@ -126,10 +126,18 @@
           <h1>Have any question or <br> free consultacy?</h1>
           <form action="">
               <div class="d-flex flex-column">
-              <input type="text"  class="getInTouchInput form-control" placeholder="Name"><br>
-              <input type="text" class="getInTouchInput form-control" placeholder="Email"><br>
-              <input type="text" class="getInTouchInput form-control" placeholder="Subject"><br>
-              <textarea type="text" class="getInTouchInput form-control" placeholder="Message"></textarea>
+              <input type="text"  class="getInTouchInput form-control" placeholder="Name" name="name"><br>
+              <input type="text" class="getInTouchInput form-control" placeholder="Mobile number" name="mobile"/><br>
+              <input type="text" class="getInTouchInput form-control" placeholder="Address" name="address"/><br>
+
+             <select name=""  id="" class="getInTouchInput form-select" aria-label="Default select example" name="services">
+                        <option selected>Services</option>
+                        <option value="1">AC Installation</option>
+                        <option value="2">Ac repair</option>
+                        <option value="3">Washing machine repaire</option>
+                        <option value="4">Fridge repaire</option>                      
+              </select><br>
+              <textarea type="text" class="getInTouchInput form-control" placeholder="Message" name="message"></textarea>
               <br>
               <button class="btnEstimate">Get Estimate</button>
             </div>
